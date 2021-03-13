@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ro">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="images/logo.png" type="image/png">
+      <title>Coffee Shop</title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <div id="home">
+         <div class="section-1">
+    
+            <nav>        
+               <div class="logo">
+               <section data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-duration="500">
+               <a href="index.html"><img class="logo" src="images/logo.png"></a>
+               </section> 
+            </div>
+            
+               <input type="checkbox" name="" id="res-menu">
+               <label for="res-menu">
+                   <i class="fa fa-bars" id="sign-one"></i>
+                   <i class="fa fa-times" id="sign-two"></i>
+               </label>
+               <ul>
+                   <li><a href="#home">Home</a></li>
+                   <li><a href="#menu">Menu</a></li>
+                   <li><a href="#about">About</a></li>
+                   <li><a href="#contact">Contact</a></li> 
+               </ul>
+           </nav>
+      </div>
+ <div class="wave"><img class="wave-1" src="images/wave-1.png"></div>
+      <div id="menu">
+         <section data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+         <h2 class="title-1">Good ideas start with good coffee, It's #coffeetime!</h2>
+         </section>
+         <hr class="hr-1">
+         <div class="row">
+            <section >
+            <div class="container" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+               <h2 class="menu-title">Daily Menu</h2>
+               <h2 class="price">5 lei</h2>
+               <ul class="menu">
+                  <li class="menu">Espresso</li>
+                  <li class="menu">Long Black</li>
+                  <li class="menu">Cappuccino</li>
+                  <li class="menu">Mochaccino</li>
+               </ul>
+            </div>
+            <div class="container" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+               <h2 class="menu-title">Specialities</h2>
+               <h2 class="price">10 lei</h2>
+               <ul class="menu">
+                  <li class="menu">Super Strong Black</li>
+                  <li class="menu">Cookie Monster Latte</li>
+                  <li class="menu">Nocciolatte</li>
+                  <li class="menu">Caramel The Great</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div id="about">
+         <div class="section-2"></div>
+         <section data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+         <h2 class="about-title">What is Coffee Shop?</h2>
+         </section>
+         <hr class="hr-1">
+         <section data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+         <p class="about-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+         </p>
+      </section>
+      </div>
+      <div id="contact">
+         <div class="footer">
+            <p class="follow-text">We can't wait to talk to you! For any question write us at contact@caffeeshop.com</p>
+            <div class="follow">
+               <a href=""><i class="fa fa-facebook-f"></i></a>
+               <a href=""><i class="fa fa-instagram"></i></a>
+               <a href=""><i class="fa fa-twitter"></i></a>
+               <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+            <p class="follow-title">Coffee Shop</p>
+            <p class="contact-title">Contact</p>
+            <p class="footer-text">Coffee is a way of stealing time which should by rights belong to your older self.</p>
+            <p class="copyright">© 2021 Flaviu Bumb. All Rights Reserved.</p>
+         </div>
+      </div>
+   </body>
+</html>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+   AOS.init();
+   function myFunction() {
+   var x = document.getElementById("nav");
+   if (x.className === "nav") {
+    x.className += " responsive";
+   } else {
+    x.className = "nav";
+   }
+   }
+</script>
